@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :password_generator, PasswordGenerator.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "1",
   hostname: "localhost",
   database: "password_generator_dev",
   stacktrace: true,
