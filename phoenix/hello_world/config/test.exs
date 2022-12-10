@@ -16,7 +16,7 @@ config :hello_world, HelloWorld.Repo,
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
 config :hello_world, HelloWorldWeb.Endpoint,
-  http: [ip: {127, 0, 0, 1}, port: 4002],
+  http: [ip: {127, 0, 0, 1}, port: 4012],
   secret_key_base: "HN3nVY/MfPmxB0YFW8W2F23GsIlHBDsZoHtlWNMwqsJ7mR4/O9QJO6aYT/6NMpdS",
   server: false
 
